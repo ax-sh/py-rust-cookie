@@ -1,0 +1,2 @@
+[build]
+rustflags = ["-C", "link-args=-mmacosx-version-min=11.0"]
