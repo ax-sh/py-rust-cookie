@@ -5,3 +5,6 @@ edition = "2021"
 
 [dependencies]
 pyo3 = { version = "0.23.3", features = ["extension-module","auto-initialize"] }
+
+[build-dependencies]
+pyo3-build-config = "0.23.3"
